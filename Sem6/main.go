@@ -49,7 +49,7 @@ func main() {
 	}
 }
 
-// get sorted cards | Complexity O(n^2)
+// get sorted cards | Complexity O(n)
 func getSortedCards(cards []Card) ([]Card, error) {
 	cLen := len(cards)
 
